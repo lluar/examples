@@ -1,0 +1,22 @@
+<app>
+ <h1>
+    Hello { props.name }
+  </h1>
+
+  <script lang="ts">
+    import {RiotComponent, withTypes} from 'riot'
+
+    interface Props {
+      name: string
+    }
+
+    interface State {
+    }
+
+    export interface MyComponent extends RiotComponent<Props, State> {
+    }
+
+    export default withTypes<MyComponent>({
+    })
+  </script>
+</app>

@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "es2015",
+    "noUnusedLocals": false,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "noImplicitThis": true
+  },
+  "include": [
+    "src"
+  ]
+}
